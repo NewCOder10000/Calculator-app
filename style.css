@@ -1,0 +1,474 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    height: 100vh;            
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid;
+    padding: 25px;
+    height: 99vh;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px;
+}
+
+.display{
+    background-color: hsl(0, 0%, 75%);
+    border: 2px solid;
+    border-radius: 50px;
+    height: 25vh;
+    text-align: center;
+    font-size: 4em;
+    vertical-align: middle;
+    line-height: 170px;
+    margin-top: -17px;
+}
+
+.reset{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-right: 3px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(189, 100%, 50%);
+    box-shadow: 1px 1px 3px;
+}
+
+.reset:hover{
+    background-color: hsl(179, 90%, 40%);
+}
+
+.reset:active{
+    background-color: hsl(169, 80%, 30%);
+}
+
+.percentage{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 6px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(189, 100%, 50%);
+    box-shadow: 1px 1px 3px;
+}
+
+.percentage:hover{
+    background-color: hsl(179, 90%, 40%);
+}
+
+.percentage:active{
+    background-color: hsl(169, 80%, 30%);
+}
+
+.Delete{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 9px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(189, 100%, 50%);
+    box-shadow: 1px 1px 3px;
+}
+
+.Delete:hover{
+    background-color: hsl(179, 90%, 40%);
+}
+
+.Delete:active{
+    background-color: hsl(169, 80%, 30%);
+}
+
+.Divide{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 9px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(189, 100%, 50%);
+    box-shadow: 1px 1px 3px;
+}
+
+.Divide:hover{
+    background-color: hsl(179, 90%, 40%);
+}
+
+.Divide:active{
+    background-color: hsl(169, 80%, 30%);
+}
+
+.seven{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-right: 3px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.seven:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.seven:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.eight{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 6px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.eight:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.eight:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.nine{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 9px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.nine:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.nine:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.Multiply{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(189, 100%, 50%);
+    box-shadow: 1px 1px 3px;
+}
+
+.Multiply:hover{
+    background-color: hsl(179, 90%, 40%);
+}
+
+.Multiply:active{
+    background-color: hsl(169, 80%, 30%);
+}
+
+.four{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-right: 3px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.four:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.four:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.five{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 7px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.five:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.five:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.six{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.six:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.six:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.minus{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
+    float: left;
+    font-size: 4em;
+    background-color: hsl(189, 100%, 50%);
+    box-shadow: 1px 1px 3px;
+}
+
+.minus:hover{
+    background-color: hsl(179, 90%, 40%);
+}
+
+.minus:active{
+    background-color: hsl(169, 80%, 30%);
+}
+
+.one{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-right: 3px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.one:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.one:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.two{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 7px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.two:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.two:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.three{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.three:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.three:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.plus{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
+    float: left;
+    font-size: 3em;
+    background-color: hsl(189, 100%, 50%);
+    box-shadow: 1px 1px 3px;
+}
+
+.plus:hover{
+    background-color: hsl(179, 90%, 40%);
+}
+
+.plus:active{
+    background-color: hsl(169, 80%, 30%);
+}
+
+.hundred{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-right: 3px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.hundred:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.hundred:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.zero{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 7px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.zero:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.zero:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.decimal{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
+    float: left;
+    font-size: 3em;
+    background-color: hsl(49, 92%, 66%);
+    box-shadow: 1px 1px 3px;
+}
+
+.decimal:hover{
+    background-color: hsl(39, 82%, 56%);
+}
+
+.decimal:active{
+    background-color: hsl(29, 72%, 46%);
+}
+
+.equal{
+    height: 13vh;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 13vh;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    background-color: hsl(189, 100%, 50%);
+    box-shadow: 1px 1px 3px;
+}
+
+.equal:hover{
+    background-color: hsl(179, 90%, 40%);
+}
+
+.equal:active{
+    background-color: hsl(169, 80%, 30%);
+}
