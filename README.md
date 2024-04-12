@@ -1,6 +1,7 @@
 # TODO JS
 # Fix "Undefined" keeps appearing
 # Fix some calculation not working as intended
+# Fix del key does not work after pressing equal sign
 # Add code to catch potential errors
 # Add code to catch two math symbols used in conjuction
 # Find and fix any other bugs/errors
