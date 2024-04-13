@@ -5,6 +5,7 @@
 # Add code to catch potential errors (Fixed)
 # Add code to catch two math symbols used in conjuction (Fixed, but can improve further)
 # Find and fix any other bugs/errors
+# Fix calculator not handling negative numbers properly (Fixed)
 # Fix not jumping to newest number after pressing equal button when number is too big to be fully displayed
 # If have time and coded scientific calculator extention, add functionality to it using js
 # Fix number - - number not working
